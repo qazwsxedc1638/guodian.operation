@@ -2,7 +2,7 @@
  <link type="text/css" rel="stylesheet" href="./plug-in/weixin/css/style.css">
      <div class="funcList" id="func">
             <ul class="list">
-                
+                <!--  
                  <a href="menuManagerController.do?list&clickFunctionId=4028d881436d514601436d5884be019d" target="_blank">
                      <li><img src="./plug-in/weixin/img/func06.jpg">
 	                    <h3>自定义菜单</h3>
@@ -70,6 +70,7 @@
                    	<h3>微天气</h3>
                    	<p>通过城市：定位天气预报</p>
                	</li>
+               	    -->
                	   <!-- 
                 <li>
                     <img src="./plug-in/weixin/img/func13.jpg">
