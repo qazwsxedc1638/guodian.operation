@@ -8,7 +8,7 @@
 	<properties>
         <codegenerate.version>3.4.6-p3</codegenerate.version>
         <minidao.version>1.6-SNAPSHOT</minidao.version>
-        <jeewx-api.version>1.1-SNAPSHOT</jeewx-api.version>
+        <jeewx-api.version>1.0.5</jeewx-api.version>
 
 		<!-- 主要依赖库的版本定义 -->
 		<spring.version>3.1.1.RELEASE</spring.version>
@@ -792,7 +792,7 @@
 		  <version>1.6</version>
 		</dependency>
 		<!-- jeewx-api -->
-		<dependency>
+		<!-- <dependency>
 		  <groupId>org.jeewx</groupId>
 		  <artifactId>jeewx-api</artifactId>
 		  <version>${jeewx-api.version}</version>
@@ -802,7 +802,7 @@
 		  		<artifactId>freemarker</artifactId>
 		  	</exclusion>
 		  </exclusions>
-		</dependency>
+		</dependency> -->
 		<!-- jeecg plugin -->
 		<dependency>
 			<groupId>org.p3framework</groupId>
@@ -836,6 +836,24 @@
 			<scope>compile</scope> 
 		</dependency>
 		<!-- jeecg plugin -->
+		
+		<!-- 二维码 -->
+        <dependency>
+        <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>javase</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>jdom</groupId>
+            <artifactId>jdom</artifactId>
+            <version>1.1</version>
+        </dependency>
 	</dependencies>
 
 	<organization>
