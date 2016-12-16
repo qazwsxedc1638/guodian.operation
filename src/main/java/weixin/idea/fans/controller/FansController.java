@@ -64,9 +64,7 @@ public class FansController {
 		//this.systemService.getDataGridReturn(cq, true);
 		String next_openid = "";
 		try {
-			System.out.println("-----------------------------access_token:"+weixinAccountEntity.getAccountaccesstoken());
 			List<Wxuser> userList = JwUserAPI.getAllWxuser(weixinAccountEntity.getAccountaccesstoken(), null);
-			System.out.println("-----------------------------size:"+userList.size());
 //			cq.getDataGrid().setResults(userList);
 //			cq.getDataGrid().setTotal(userList.size());
 			dataGrid.setResults(userList);
